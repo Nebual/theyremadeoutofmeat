@@ -26,12 +26,12 @@ if angelsmods and angelsmods.smelting then
 end
 
 if angelsmods and angelsmods.bioprocessing then
-	angelsmods.functions.OV.remove_input("compressed-meat-cube", "wood")
+	angelsmods.functions.OV.remove_input("compress-meat", "wood")
     angelsmods.functions.OV.patch_recipes({
         {
-            name = "compressed-meat-cube",
+            name = "compress-meat",
             ingredients = {
-                {type = "item", name = "cellulose-fibre", amount = 8}
+                {type = "item", name = "cellulose-fiber", amount = 8}
             },
         }
     })
