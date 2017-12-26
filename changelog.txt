@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 25. 12. 2017
+  Changes:
+    - Fixed Bob's Greenhouse extra fertilizer recipe not showing
+    - Fixed Angel's Bioprocessing Cellulose Fiber not being used in Compressed Cube recipe (thanks @EPSIL0N)
+---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 14. 12. 2017
   Changes:

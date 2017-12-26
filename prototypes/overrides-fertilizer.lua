@@ -1,4 +1,4 @@
-if bobsmods and bobmods.greenhouse then
+if bobmods and bobmods.greenhouse then
     data:extend({
         {
             type = "recipe",
