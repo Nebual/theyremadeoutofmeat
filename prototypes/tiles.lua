@@ -4,7 +4,6 @@ data:extend({
         name = "bone-floor",
         icon = "__TheyreMadeOutofMeat__/graphics/icons/meat-bones.png", -- todo
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "meat-products",
         order = "a[meat-bone-floor]",
         place_as_tile = {

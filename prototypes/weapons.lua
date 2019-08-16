@@ -12,7 +12,6 @@ data:extend({
         name = "bone-bullets",
         icon = "__TheyreMadeOutofMeat__/graphics/icons/bone-bullets.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         ammo_type = {
             category = "bullet",
             action = {
@@ -46,49 +45,5 @@ data:extend({
         subgroup = "ammo",
         order = "a[basic-clips]-a[firearm-magazine-bone]",
         stack_size = 200
-    },
-    {
-        type = "recipe",
-        name = "bone-axe",
-        normal = {
-            enabled = false,
-            energy_required = 1,
-            ingredients = {
-                {"iron-stick", 2},
-                {"meat-bones", 10}
-            },
-            result = "bone-axe"
-        },
-        expensive = {
-            enabled = false,
-            energy_required = 1,
-            ingredients = {
-                {"iron-stick", 2},
-                {"meat-bones", 40}
-            },
-            result = "bone-axe"
-        },
-    },
-    {
-        type = "mining-tool",
-        name = "bone-axe",
-        icon = "__base__/graphics/icons/steel-axe.png", -- todo
-        icon_size = 32,
-        flags = {"goes-to-main-inventory"},
-        action = {
-            type = "direct",
-            action_delivery = {
-                type = "instant",
-                target_effects = {
-                    type = "damage",
-                    damage = {amount = 50, type = "physical"}
-                }
-            }
-        },
-        durability = 2500,
-        subgroup = "tool",
-        order = "a[mining]-bb[bone-axe]",
-        speed = 4,
-        stack_size = 20
     }
 })

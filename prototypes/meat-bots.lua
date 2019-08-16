@@ -4,7 +4,6 @@ data:extend({
         name = "meat-roboport",
         icon = "__base__/graphics/icons/roboport.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "meat-products",
         order = "a[meat-robotics]-a[roboport]",
         place_result = "meat-roboport",
@@ -27,7 +26,6 @@ data:extend({
         name = "meat-chest",
         icon = "__base__/graphics/icons/logistic-chest-storage.png",
         icon_size = 32,
-        flags = {"goes-to-quickbar"},
         subgroup = "meat-products",
         order = "a[meat-robotics]-b[chest]",
         place_result = "meat-chest",
@@ -96,7 +94,6 @@ data:extend({
         name = "meat-robot",
         icon = "__base__/graphics/icons/construction-robot.png", -- todo cover in meat
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
         subgroup = "meat-products",
         order = "a[meat-robotics]-c[robot]",
         place_result = "meat-robot",
