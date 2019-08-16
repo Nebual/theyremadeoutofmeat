@@ -18,7 +18,7 @@ data:extend({
         unit = {
             count = 50,
             ingredients = {
-                {"science-pack-1", 1},
+                {"automation-science-pack", 1},
             },
             time = 15
         },
@@ -50,16 +50,12 @@ data:extend({
             {
                 type = "unlock-recipe",
                 recipe = "bone-bullets"
-            },
-            {
-                type = "unlock-recipe",
-                recipe = "bone-axe"
             }
         },
         unit = {
             count = 100,
             ingredients = {
-                {"science-pack-1", 1},
+                {"automation-science-pack", 1},
             },
             time = 25
         },
@@ -84,8 +80,8 @@ data:extend({
         unit = {
             count = 50,
             ingredients = {
-                {"science-pack-1", 1},
-                {"science-pack-2", 1},
+                {"automation-science-pack", 1},
+                {"logistic-science-pack", 1},
             },
             time = 30
         },
@@ -117,8 +113,8 @@ data:extend({
         unit = {
             count = 50,
             ingredients = {
-                {"science-pack-1", 1},
-                {"science-pack-2", 1}
+                {"automation-science-pack", 1},
+                {"logistic-science-pack", 1}
             },
             time = 30
         },

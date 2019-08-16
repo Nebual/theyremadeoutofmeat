@@ -38,7 +38,6 @@ data:extend({
         name = "meat-boiler",
         icon = "__base__/graphics/icons/boiler.png",
         icon_size = 32,
-        flags = {"goes-to-quickbar"},
         subgroup = "meat-products",
         order = "b[steam-power]-a[boiler]",
         place_result = "meat-boiler",

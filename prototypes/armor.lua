@@ -23,7 +23,6 @@ data:extend({
         name = "bone-armor",
         icon = "__TheyreMadeOutofMeat__/graphics/icons/bone-armor.png",
         icon_size = 32,
-        flags = {"goes-to-quickbar"},
         resistances = {
             {
                 type = "physical",
@@ -57,7 +56,7 @@ data:extend({
         name = "bone-armor-speedmod",
         icon = "__base__/graphics/icons/exoskeleton-equipment.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory", "hidden"},
+        flags = {"hidden"},
         subgroup = "meat-products",
         order = "a[meat-bone-armor-speedmod]",
         placed_as_equipment_result = "bone-armor-speedmod",
@@ -78,10 +77,10 @@ data:extend({
             type = "full"
         },
         energy_source = {
-            type = "electric",
+            type = "void",
             usage_priority = "secondary-input"
         },
-        energy_consumption = "0W",
+        energy_consumption = "1W",
         movement_bonus = -0.3,
         categories = {"bone"}
     }
