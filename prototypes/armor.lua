@@ -77,7 +77,7 @@ data:extend({
             type = "full"
         },
         energy_source = {
-            type = "electric",
+            type = "void",
             usage_priority = "secondary-input"
         },
         energy_consumption = "1W",
