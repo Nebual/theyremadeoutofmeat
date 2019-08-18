@@ -45,10 +45,6 @@ data:extend({
             },
             {
                 type = "unlock-recipe",
-                recipe = "bone-armor"
-            },
-            {
-                type = "unlock-recipe",
                 recipe = "bone-bullets"
             }
         },
