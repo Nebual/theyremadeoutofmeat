@@ -1,6 +1,5 @@
 require("prototypes.category")
 require("prototypes.items")
-require("prototypes.armor")
 require("prototypes.weapons")
 require("prototypes.meat-bots")
 require("prototypes.boilers")

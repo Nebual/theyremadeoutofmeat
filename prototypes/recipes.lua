@@ -62,7 +62,7 @@ data:extend({
             {type = "fluid", name = "heavy-oil", amount = 20} -- {type = "fluid", name = "liquid-naphtha", amount = 50} via angelsrefining
         },
         results = {
-            {type = "item", name = "solid-fuel", amount = 1} -- produces 2 via angelsrefining
+            {type = "item", name = "solid-fuel", amount = 2} -- produces 2 via angelsrefining
         },
         icon = "__base__/graphics/icons/solid-fuel-from-heavy-oil.png", -- "__angelspetrochem__/graphics/icons/solid-fuel-naphtha.png" via angelsrefining
         icon_size = 32,
