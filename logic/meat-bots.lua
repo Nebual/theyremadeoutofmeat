@@ -5,7 +5,9 @@ script.on_init(function(e)
     global.meat_ports = {}
     meat_ports = global.meat_ports
 
-    game.create_force("meat-bot-force")
+    if game.forces["meat-bot-force"] == nil then
+        game.create_force("meat-bot-force")
+    end
     local meat_force = game.forces["meat-bot-force"]
     for i, force in pairs(game.forces) do
         force.set_friend(meat_force, true)
@@ -26,6 +28,9 @@ script.on_event({defines.events.on_built_entity, defines.events.on_robot_built_e
 end)
 script.on_event({defines.events.on_force_created}, function(e)
     local meat_force = game.forces["meat-bot-force"]
+    if meat_force == nil then
+        return
+    end
     e.force.set_friend(meat_force, true)
     meat_force.set_friend(e.force, true)
 end)
